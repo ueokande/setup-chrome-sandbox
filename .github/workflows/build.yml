@@ -27,10 +27,7 @@ jobs:
 
   test:
     needs: [build]
-    strategy:
-      matrix:
-        os: [ubuntu, macos, windows]
-    runs-on: ${{ matrix.os }}-latest
+    runs-on: macos-latest-large
     steps:
       - uses: actions/download-artifact@v3
         with:
