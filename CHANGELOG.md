@@ -1,5 +1,36 @@
 # Changelog
 
+## [1.3.0](https://github.com/ueokande/setup-chrome-sandbox/compare/setup-chrome-v1.2.0...setup-chrome-v1.3.0) (2024-07-13)
+
+
+### Features
+
+* Add `install-dependencies` parameter ([#521](https://github.com/ueokande/setup-chrome-sandbox/issues/521)) ([808262a](https://github.com/ueokande/setup-chrome-sandbox/commit/808262a22c281a8f87e58abea70d008d15916821))
+* support `macos-14` runner ([#483](https://github.com/ueokande/setup-chrome-sandbox/issues/483)) ([c7a9638](https://github.com/ueokande/setup-chrome-sandbox/commit/c7a9638ceead5dc0072ed72e8dcba019186cc665))
+* support installing a compatible version of ChromeDriver ([#548](https://github.com/ueokande/setup-chrome-sandbox/issues/548)) ([f0f75ba](https://github.com/ueokande/setup-chrome-sandbox/commit/f0f75ba773df0ba7c82aad050bc94bbb69a1e5f7))
+* support M1/M2 mac ([#426](https://github.com/ueokande/setup-chrome-sandbox/issues/426)) ([8a8f449](https://github.com/ueokande/setup-chrome-sandbox/commit/8a8f4497e59bf92e66270626dbcc37a2aa0933e5))
+* Support to install by a specific version ([#444](https://github.com/ueokande/setup-chrome-sandbox/issues/444)) ([775b8fb](https://github.com/ueokande/setup-chrome-sandbox/commit/775b8fb5bb29c3f0bd6c573adb3174095102e7cc))
+
+
+### Bug Fixes
+
+* **deps:** bump @actions/io from 1.1.2 to 1.1.3 ([#333](https://github.com/ueokande/setup-chrome-sandbox/issues/333)) ([619ab4e](https://github.com/ueokande/setup-chrome-sandbox/commit/619ab4ecda61fb4ee08835d01c8aad9b7381d78a))
+* **deps:** bump the actions group with 1 update ([#406](https://github.com/ueokande/setup-chrome-sandbox/issues/406)) ([f318cc2](https://github.com/ueokande/setup-chrome-sandbox/commit/f318cc23baba89e414d91f638b85a97363758ac6))
+* **deps:** bump the actions group with 1 update ([#505](https://github.com/ueokande/setup-chrome-sandbox/issues/505)) ([21a0849](https://github.com/ueokande/setup-chrome-sandbox/commit/21a0849857a04999f466f1573877d549dbebc23f))
+* **deps:** bump the actions group with 2 updates ([#388](https://github.com/ueokande/setup-chrome-sandbox/issues/388)) ([17715dd](https://github.com/ueokande/setup-chrome-sandbox/commit/17715ddf4fffdf5aecf4db00899254cccfc42427))
+* **deps:** migrate a package manager to pnpm ([#384](https://github.com/ueokande/setup-chrome-sandbox/issues/384)) ([5fa5696](https://github.com/ueokande/setup-chrome-sandbox/commit/5fa56961cf53f049d4a4963f21322f4aec3de1d3))
+* fix gpg import ([9f6ed02](https://github.com/ueokande/setup-chrome-sandbox/commit/9f6ed0201bbccd8afd37d013227a05f31a2925ea))
+* fix stable channel version on Intel Mac ([#351](https://github.com/ueokande/setup-chrome-sandbox/issues/351)) ([68cb47d](https://github.com/ueokande/setup-chrome-sandbox/commit/68cb47d5946fd8cad495395835d94ab24f182393))
+* gpg improt ([c85ed9d](https://github.com/ueokande/setup-chrome-sandbox/commit/c85ed9d6f8d6812c50dd112ad07e0053d86661ea))
+* install package with sudo for non-root users by default ([#546](https://github.com/ueokande/setup-chrome-sandbox/issues/546)) ([5325b7d](https://github.com/ueokande/setup-chrome-sandbox/commit/5325b7d75ccf0a4a39f671ece6a3ec5a3968c665)), closes [#544](https://github.com/ueokande/setup-chrome-sandbox/issues/544)
+* sign tag ([37738b1](https://github.com/ueokande/setup-chrome-sandbox/commit/37738b108d490b37853da43e9f22a8683e177deb))
+* tool-cache does not work ([#533](https://github.com/ueokande/setup-chrome-sandbox/issues/533)) ([e88eaf7](https://github.com/ueokande/setup-chrome-sandbox/commit/e88eaf738be41864c31ee42ad17d06d10b166676)), closes [#504](https://github.com/ueokande/setup-chrome-sandbox/issues/504)
+* try to install browser version when user will not install ChromeDriver ([#551](https://github.com/ueokande/setup-chrome-sandbox/issues/551)) ([f5596e0](https://github.com/ueokande/setup-chrome-sandbox/commit/f5596e0a950ec3cf422a66d3d9c180bfa8edde65)), closes [#550](https://github.com/ueokande/setup-chrome-sandbox/issues/550)
+* Update nodejs version 20 ([#480](https://github.com/ueokande/setup-chrome-sandbox/issues/480)) ([f2d38a6](https://github.com/ueokande/setup-chrome-sandbox/commit/f2d38a6a7f1e725ec59a107ed254971eca75fc3e))
+* Update README.md ([64c2529](https://github.com/ueokande/setup-chrome-sandbox/commit/64c2529915d6a9f05b74f4c3bb2681225d0a0c83))
+* Update README.md ([dff232f](https://github.com/ueokande/setup-chrome-sandbox/commit/dff232fba17872829fbd7b71521d62856339a97a))
+* use cached dir on linux ([#540](https://github.com/ueokande/setup-chrome-sandbox/issues/540)) ([4e11c0b](https://github.com/ueokande/setup-chrome-sandbox/commit/4e11c0b29cc0a878fc608398eb9ba610ceea2d5e))
+
 ## [1.2.0](https://github.com/ueokande/setup-chrome-sandbox/compare/setup-chrome-v1.1.0...setup-chrome-v1.2.0) (2024-07-13)
 
 
