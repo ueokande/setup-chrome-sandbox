@@ -32,7 +32,7 @@ jobs:
           full_version: ${{ steps.release.outputs.major }}.${{ steps.release.outputs.minor }}.${{ steps.release.outputs.patch }}
           tag_name: ${{ steps.release.outputs.tag_name }}
         run: |
-          gpg --allow-secret-key-import --import <<< "$PRIVATE_SIGNING_KEY"
+          gpg --allow-secret-key-import --import <<< "${{ secrets.PRIVATE_SIGNING_KEY }}"
           git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
           git config commit.gpgsign true
           git config --global user.name ueokande
